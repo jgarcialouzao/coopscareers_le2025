@@ -25,7 +25,7 @@ The full set of results can be obtained running the `0_Master_File.do` program. 
 # Descriptive statistics & Regression results in the main text 
 * `Desc_FirstJob.do`
 * `Desc_PooledSample.do`
-* `Reg_Baseline.do` 				            - produces benchmark wage results
+* `Reg_Baseline.do` 				            - produces benchmark wage results as well as IV estimates and Oster bound exercise
 * `Reg_Mobility.do`      				        - produces mobility models
 * `Reg_WageMobility_CoopIncidence.do`   - estimates the wage gap and mobility by incidence of coop time
 * `Reg_Returns2Exp.do`                  - produces wage returns to experience [including figure for catch-up rate]
