@@ -22,11 +22,9 @@ The full set of results can be obtained running the `0_Master_File.do` program. 
 * `2_code_panels.do`        - runs a sequence of .do files that create different panels [firms, workers, jobs, wages] that will be merged together 
 * `3_data_prep.do`          - prepares the data for the analysis; requires associated ado files: `sectorhom.do` `provtoreg.do` `censoredtobit_CHK.ado`
 
-# Descriptive statistics 
+# Descriptive statistics & Regression results in the main text 
 * `Desc_FirstJob.do`
 * `Desc_PooledSample.do`
-
-** Regression results in the main text 
 * `Reg_Baseline.do` 				            - produces benchmark wage results
 * `Reg_Mobility.do`      				        - produces mobility models
 * `Reg_WageMobility_CoopIncidence.do`   - estimates the wage gap and mobility by incidence of coop time
@@ -37,14 +35,4 @@ The full set of results can be obtained running the `0_Master_File.do` program. 
 * Appendix 
 do ${path}\Do\Reg_Baseline_Heterogeneity.do     // wage effects by sub-groups 
 do ${path}\Do\Reg_JobLadder.do                 // persistence of cooperative employer 
-  
-* set up a panel of firms, work with key variables, requires associated ado files: `xlsfirms_new.ado` and `xlsfirms.ado` 
-* `prog_translog.do`        - sets up estimation sample and performs translog production function estimation, requires associated ado file: `dlw_TL_LL.ado`
-* `prog_cobbdoublas.do`     - sets up estimation sample and performs Cobb-Douglas production function estimation, requires associated ado file: `dlw_CD_LL.ado`
-* `prog_descriptives.do`    - produces basic descriptive statistics 
-* `prog_mu_micro.do`        - creates markup specific summary statistics
-* `prog_md_micro.do`        - creates markdown specific summary statistics
-* `prog_het_regression.do`  - estimates firm-level regressions of markups and markdowns on selected firm-level characteristics
-* `prog_mumd_agg.do`        - produces aggregate values of markups and markdowns and creates figures [`prog_mumd_agg_cd` for the Cobb-Douglas version]
-* `prog_OP.do`              - performs Olley and Pakes decomposition along with additional sector-level measures of concentration 
-* `prog_FHK.do`             - performs Foster, Haltiwanger, and Krizan decomposition
+
