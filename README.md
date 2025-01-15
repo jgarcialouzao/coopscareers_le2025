@@ -15,22 +15,21 @@ The Social Security administration evaluates the request and, if positive, the d
 
 
 # Replication files
-The full set of results can be obtained running the `0_Master_File.do` program. This program includes the following sub-programs:
+The full set of results can be obtained by running the `0_Master_File.do` program. This program includes the following sub-programs:
 
 ## Data preparation
-* `1_read_MCVL.do`          - opens raw MCVL files and transforms it in Stata format 
-* `2_code_panels.do`        - runs a sequence of .do files that create different panels [firms, workers, jobs, wages] that will be merged together 
+* `1_read_MCVL.do`          - opens raw MCVL files and transforms them in Stata format 
+* `2_code_panels.do`        - runs a sequence of do.files that create different panels [firms, workers, jobs, wages] that will be merged together 
 * `3_data_prep.do`          - prepares the data for the analysis; requires associated ado files: `sectorhom.do` `provtoreg.do` `censoredtobit_CHK.ado`
 
-## Regression results in the main text 
-
+## Main text 
 * `Reg_Baseline.do` 				            - produces benchmark wage results as well as IV estimates and Oster bound exercise
 * `Reg_Mobility.do`      				        - produces mobility models
-* `Reg_WageMobility_CoopIncidence.do`   - estimates the wage gap and mobility by incidence of coop time
+* `Reg_WageMobility_CoopIncidence.do`   - estimates the wage gap and mobility by the incidence of cooperative time
 * `Reg_Returns2Exp.do`                  - produces wage returns to experience [including figure for catch-up rate]
 * `Reg_Promotions2Exp.do`               - produces promotion returns to experience
 
-## Regular appendix results
+## Regular appendix
 * `Desc_FirstJob.do`
 * `Desc_PooledSample.do`
 * 
@@ -39,6 +38,6 @@ The full set of results can be obtained running the `0_Master_File.do` program. 
 do ${path}\Do\Reg_Baseline_Heterogeneity.do     // wage effects by sub-groups 
 do ${path}\Do\Reg_JobLadder.do                 // persistence of cooperative employer
 
-## Online appendix results
+## Online appendix
 
 
