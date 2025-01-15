@@ -1,6 +1,6 @@
 
 
-## Data access
+# Data access
 This research uses anonymized administrative data from the Muestra Continua de Vidas Laborales con Datos Fiscales (MCVL) with the permission of Spain's Dirección General de Ordenación de la Seguridad Social.
 Unfortunately, the data is not publicly available. Therefore, we will provide information about the application process and the files needed to replicate the results.
 
@@ -14,15 +14,15 @@ Once the forms have been completed and signed, they should be sent to mcvl.dgoss
 The Social Security administration evaluates the request and, if positive, the data are shared with the researchers.
 
 
-## Replication files
+# Replication files
 The full set of results can be obtained running the `0_Master_File.do` program. This program includes the following sub-programs:
 
-# Data preparation
+## Data preparation
 * `1_read_MCVL.do`          - opens raw MCVL files and transforms it in Stata format 
 * `2_code_panels.do`        - runs a sequence of .do files that create different panels [firms, workers, jobs, wages] that will be merged together 
 * `3_data_prep.do`          - prepares the data for the analysis; requires associated ado files: `sectorhom.do` `provtoreg.do` `censoredtobit_CHK.ado`
 
-# Descriptive statistics & Regression results in the main text 
+## Descriptive statistics & Regression results in the main text 
 * `Desc_FirstJob.do`
 * `Desc_PooledSample.do`
 * `Reg_Baseline.do` 				            - produces benchmark wage results as well as IV estimates and Oster bound exercise
