@@ -30,13 +30,10 @@ The full set of results can be obtained by running the `0_Master_File.do` progra
 * `Reg_Promotions2Exp.do`               - produces promotion returns to experience
 
 ## Regular appendix
-* `Desc_FirstJob.do`
-* `Desc_PooledSample.do`
-* 
-** Additional descriptives and results [some of these do files require to run commented part within 3_data_prep.do]
-* Appendix 
-do ${path}\Do\Reg_Baseline_Heterogeneity.do     // wage effects by sub-groups 
-do ${path}\Do\Reg_JobLadder.do                 // persistence of cooperative employer
+* `Desc_FirstJob.do` and `Desc_PooledSample.do`  - generate results in the descriptive statatistics table
+* `Reg_Baseline_Heterogeneity.do`                - wage effects by sub-groups 
+* `Reg_JobLadder.do`                             - persistence of cooperative employer
+
 
 ## Online appendix
 
