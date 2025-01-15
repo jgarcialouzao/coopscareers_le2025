@@ -22,17 +22,23 @@ The full set of results can be obtained running the `0_Master_File.do` program. 
 * `2_code_panels.do`        - runs a sequence of .do files that create different panels [firms, workers, jobs, wages] that will be merged together 
 * `3_data_prep.do`          - prepares the data for the analysis; requires associated ado files: `sectorhom.do` `provtoreg.do` `censoredtobit_CHK.ado`
 
-## Descriptive statistics & Regression results in the main text 
-* `Desc_FirstJob.do`
-* `Desc_PooledSample.do`
+## Regression results in the main text 
+
 * `Reg_Baseline.do` 				            - produces benchmark wage results as well as IV estimates and Oster bound exercise
 * `Reg_Mobility.do`      				        - produces mobility models
 * `Reg_WageMobility_CoopIncidence.do`   - estimates the wage gap and mobility by incidence of coop time
 * `Reg_Returns2Exp.do`                  - produces wage returns to experience [including figure for catch-up rate]
 * `Reg_Promotions2Exp.do`               - produces promotion returns to experience
 
+## Regular appendix results
+* `Desc_FirstJob.do`
+* `Desc_PooledSample.do`
+* 
 ** Additional descriptives and results [some of these do files require to run commented part within 3_data_prep.do]
 * Appendix 
 do ${path}\Do\Reg_Baseline_Heterogeneity.do     // wage effects by sub-groups 
-do ${path}\Do\Reg_JobLadder.do                 // persistence of cooperative employer 
+do ${path}\Do\Reg_JobLadder.do                 // persistence of cooperative employer
+
+## Online appendix results
+
 
