@@ -37,13 +37,14 @@ The full set of results can be obtained by running the `0_Master_File.do` progra
 
 
 ## Online appendix
-//additional figures and tables
+* additional figures and tables
 * `B1.FigureEntrants.do`
 * `B2.Graphs_Duration_first_job.do`
 * `B3.WorkerFE.do`
 * `B4.Distribution_CoopEntry_Observables.do`
 * `B5.Reg_ExitRate_1stJob.do`
-// Robustness test
+
+* robustness test
 * `Reg_Baseline_Robust_WorkerOwned.do`
 * `Reg_Baseline_Robust_FirstJobDef.do`
 * `Reg_Baseline_Robust_LMRelationships.do`
