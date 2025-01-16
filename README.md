@@ -30,12 +30,23 @@ The full set of results can be obtained by running the `0_Master_File.do` progra
 * `Reg_Promotions2Exp.do`               - produces promotion returns to experience
 
 ## Regular appendix
-* `Desc_FirstJob.do` + `Desc_PooledSample.do`  - generate results in the descriptive statatistics table
+* `Desc_FirstJob.do` + `Desc_PooledSample.do`    - generate results in the descriptive statistics table
 * `Reg_Baseline_Heterogeneity.do`                - wage effects by sub-groups 
 * `Reg_JobLadder.do`                             - persistence of cooperative employer
-* `Reg_Mobility_Unemployment.do`                   - incidence of unemployment over the career
+* `Reg_Mobility_Unemployment.do`                 - incidence of unemployment over the career
 
 
 ## Online appendix
-
+//additional figures and tables
+* `B1.FigureEntrants.do`
+* `B2.Graphs_Duration_first_job.do`
+* `B3.WorkerFE.do`
+* `B4.Distribution_CoopEntry_Observables.do`
+* `B5.Reg_ExitRate_1stJob.do`
+// Robustness test
+* `Reg_Baseline_Robust_WorkerOwned.do`
+* `Reg_Baseline_Robust_FirstJobDef.do`
+* `Reg_Baseline_Robust_LMRelationships.do`
+* `Reg_Baseline_Robust_Censoring.do`
+* `Reg_Baseline_Robust_FirmSizeEntry.do`
 
